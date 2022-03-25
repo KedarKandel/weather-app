@@ -1,0 +1,83 @@
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.App {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  width: 100%;
+  background: linear-gradient(to right, rgb(60, 60, 156), rgb(86, 161, 86));
+}
+.container {
+  margin: auto;
+  display: flex;
+  height: 800px;
+  width: 30%;
+  flex-direction: column;
+background-color: rgb(66, 47, 63);
+  align-items: center;
+  border-radius: 10px;
+}
+
+input {
+  padding: 20px;
+  height: 4rem;
+  border-radius: 5px;
+  border: 2px solid gray;
+  width: 60%;
+  margin-top: 5rem;
+}
+
+input:focus {
+  outline: none;
+  font-size:1.4rem;
+}
+input::placeholder {
+  font-size: 1.3rem;
+  color: rgb(123, 150, 177);
+}
+.result-container {
+  margin-top: 6rem;
+  width: 100%;
+  height: 100%;
+  display: flex;
+align-items: center;
+  flex-direction: column;
+ background-color: #3A3845;
+ justify-content: center;
+}
+.welcome{
+
+ display: flex;
+ align-items: center;
+ justify-content: center;
+ align-items: center;
+}
+.welcome-text{
+  font-size: 1.5rem;
+  margin: 1.2rem;
+  color: rgb(179, 198, 218);
+  width: 60%;
+  
+}
+
+p {
+  margin: 2rem;
+  color: white;
+}
+.city {
+  font-size: 3rem;
+
+}
+.temp {
+  font-size: 2rem;
+
+}
+.weather {
+  font-size: 2rem;
+  
+}
