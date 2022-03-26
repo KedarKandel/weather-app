@@ -24,6 +24,7 @@ const Weather = () => {
 
   return (
     <div className="container">
+       <h1 className="title">Find the weather information of the desired city</h1>
       <input
         type="text"
         placeholder="Enter a city name..."
